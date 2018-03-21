@@ -1,0 +1,15 @@
+.reference {
+  position: relative;
+  height: 5rem;
+  width: 5rem;
+  background: pink;
+}
+.popout-menu {
+  position: absolute;
+  visibility: hidden;
+  left: 100%;
+  background: red;
+}
+.reference:hover > .popout-menu {
+  visibility: visible;
+}
